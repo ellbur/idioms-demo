@@ -1,4 +1,5 @@
 
+import com.github.ellbur.idiomsdemo.{ProtoNodes, Nodes}
 import java.io.{FileWriter, PrintWriter, File}
 
 object ProtoNodeTest extends App {

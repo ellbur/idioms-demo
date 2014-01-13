@@ -1,3 +1,5 @@
+package com.github.ellbur.idiomsdemo
+
 
 object ProtoNodes {
   import Nodes._

@@ -1,3 +1,5 @@
+package com.github.ellbur.idiomsdemo
+
 
 object LambdaIdiom {
   import Nodes._

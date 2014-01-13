@@ -1,3 +1,5 @@
+package com.github.ellbur.idiomsdemo
+
 
 import java.io.File
 import org.apache.commons.io.FileUtils
