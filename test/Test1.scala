@@ -1,11 +1,12 @@
 
-import com.github.ellbur.idiomsdemo.{ProtoNodes, Nodes}
+import com.github.ellbur.idiomsdemo.language._
+import Nodes._
+import ProtoNodes._
+import Reductions._
+import com.github.ellbur.idiomsdemo.rendering.Rendering._
 import java.io.{FileWriter, PrintWriter, File}
 
-object ProtoNodeTest extends App {
-  import Nodes._
-  import ProtoNodes._
-
+object Test1 extends scala.App {
   {
     val just = protoNodeToNode('x :>: (Just)('x))
     val double = protoNodeToNode('f :>: 'x :>: 'f('f('x)))
